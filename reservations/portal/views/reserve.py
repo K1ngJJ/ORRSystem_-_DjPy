@@ -33,10 +33,10 @@ class Reserve(View):
 
         if table_count == 0:
             messages.error(
-                request, "No hay mesas disponibles para {persons}".format(persons=ctx['persons']))
+                request, "There are no tables available for {persons}".format(persons=ctx['persons']))
             return render(request, 'portal/reserve.html', context=ctx)
         else:
-            messages.success(request, "¡Su reservación se completo, gracias!")
+            messages.success(request, "Your reservation is complete, thank you!")
             return redirect('reserve')
 
 # >>> paul = Person.objects.create(name="Paul McCartney")

@@ -11,4 +11,4 @@ class Reservation(models.Model):
     message = models.TextField(blank=True)
 
     def __str__(self):
-        return "Guess: {name} - Table: {table} - Date {date}".format(name=guess.full_name, table=table.number, date=date_reservation)
+        return "Guess: {name} - Table: {table} - Date {date}".format(name=Guess, table=Table, date=datetime)

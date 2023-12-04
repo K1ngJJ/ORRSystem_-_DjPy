@@ -129,3 +129,6 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Use BigAutoField as the default auto-created primary key field
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
