@@ -38,3 +38,7 @@ If the database has new models and or a model changed run the makemigration tool
 To create a super user for administration, run the following command:
 
 `python manage.py createsuperuser`
+
+username: ocrs
+email: ocrs@gmail.com
+password: admin@123
