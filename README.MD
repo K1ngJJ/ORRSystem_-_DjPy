@@ -39,6 +39,6 @@ To create a super user for administration, run the following command:
 
 `python manage.py createsuperuser`
 
-username: ocrs
-email: ocrs@gmail.com
-password: admin@123
+username: gigcafe
+email: gigcafe@gmail.com
+password: orrsystem
